@@ -22,11 +22,9 @@ def parse_files(file_list:List[str])->List[Person]:
             person_list.extend(parse(csvparser,file_name))
     return person_list
 
-def write_output(person_list = List[Person]):
-    f = open("output.txt", "w")
+def write_output(person_list = List[Person]): 
     for person in person_list:
-        f.write(str(person))
-    f.close()
+        print(person) 
 
 file_list = ['demo.txt','demo.json','demo.csv']
 person_list = parse_files(file_list)

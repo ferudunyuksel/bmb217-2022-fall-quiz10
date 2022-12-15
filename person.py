@@ -6,5 +6,5 @@ class Person:
         self.surname = surname
 
     def __str__(self) -> str:
-        return f'Person ID:{self.pid}, Name:{self.name}, Surname:{self.surname}\n'
+        return f'Person ID:{self.pid}, Name:{self.name}, Surname:{self.surname}'
  
