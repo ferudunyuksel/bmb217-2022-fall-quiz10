@@ -30,3 +30,14 @@ file_list = ['demo.txt','demo.json','demo.csv']
 person_list = parse_files(file_list)
 write_output(person_list)
 
+"""
+example output:
+
+Person ID:987, Name:tarkan, Surname:tevetoglu
+Person ID:654, Name:zeynep, Surname:sahin
+Person ID:852, Name:kerem, Surname:uysal
+Person ID:123, Name:ali, Surname:yilmaz
+Person ID:234, Name:ayse, Surname:aslan
+Person ID:345, Name:fatma, Surname:kaplan
+
+"""
